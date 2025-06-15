@@ -1,4 +1,4 @@
-/* ========== RESET ========== */
+
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
@@ -7,10 +7,8 @@ body {
   color: #ffffff;
 }
 
-/* Container utilitário */
 .container { max-width: 1200px; margin: auto; padding: 2rem; }
 
-/* ========== HEADER FIXO (COM EFEITO) ========== */
 header {
   position: fixed; top: 0; left: 0; width: 100%;
   background: rgba(13, 13, 13, 0.85); /* Fundo com leve transparência */
@@ -25,7 +23,6 @@ header .container {
   align-items: center;
 }
 
-/* Navegação */
 nav ul {
   list-style: none; display: flex; flex-wrap: wrap;
   gap: 1.5rem; justify-content: center;
@@ -41,7 +38,6 @@ nav a.ativo {
   border-bottom: 2px solid #40E0D0;
 }
 
-/* ========== HERO (COM ESTILO ATUALIZADO) ========== */
 .hero {
   padding-top: 120px;
   padding-bottom: 6rem;
@@ -54,7 +50,6 @@ nav a.ativo {
 }
 .texto { flex: 1; }
 
-/* "Olá, meu nome é" - Mais sutil e elegante */
 .texto .destaque {
   font-size: 1.1rem;
   color: #bbbbbb;
@@ -63,7 +58,6 @@ nav a.ativo {
   margin-bottom: 1rem;
 }
 
-/* "João Lopes" - Maior destaque e melhor espaçamento */
 .texto h1 {
   font-size: 4rem;
   font-weight: 900;
@@ -71,7 +65,6 @@ nav a.ativo {
   margin-bottom: 1.5rem;
 }
 
-/* "Sou um Desenvolvedor Web" - Com efeito de digitação */
 .texto h2 {
   font-size: 2rem;
   color: #48D1CC;
@@ -84,7 +77,6 @@ nav a.ativo {
     blink-caret .75s step-end infinite;
 }
 
-/* Animações para o efeito de digitação */
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
@@ -94,7 +86,6 @@ nav a.ativo {
   50% { border-color: #48D1CC; }
 }
 
-/* Botões */
 .botoes { display: flex; gap: 1rem; }
 .btn, .btn-outline {
   padding: .8rem 1.5rem; border-radius: 25px;
@@ -108,7 +99,6 @@ nav a.ativo {
   background: #40E0D0; color: #0d0d0d; box-shadow: 0 0 8px #40E0D0;
 }
 
-/* Imagem circular */
 .imagem { flex: 1; display: flex; justify-content: center; }
 .circulo {
   background: radial-gradient(circle at center, #00CED1, #007a7a);
@@ -121,7 +111,6 @@ nav a.ativo {
   object-fit: cover; border: 4px solid #0d0d0d;
 }
 
-/* ========== SEÇÕES ========== */
 .section { padding: 5rem 2rem; }
 .section h2 {
   text-align: center;
@@ -131,7 +120,6 @@ nav a.ativo {
   margin-bottom: 3rem;
 }
 
-/* ========== Carrossel de Habilidades ========== */
 .carousel {
   display: flex;
   overflow: hidden;
@@ -185,7 +173,6 @@ nav a.ativo {
   filter: invert(1);
 }
 
-/* ========== CONTATO ========== */
 .contato-subtitulo {
   text-align: center;
   color: #aaa;
@@ -222,7 +209,6 @@ nav a.ativo {
   box-shadow: 0 0 15px #40E0D0;
 }
 
-/* ========== FOOTER ========== */
 footer {
   background-color: #0d0d0d;
   padding: 1.5rem 0;
@@ -236,7 +222,6 @@ footer {
   letter-spacing: 0.5px;
 }
 
-/* ========== RESPONSIVO ========== */
 @media (max-width: 768px) {
   .hero-content {
     flex-direction: column;
@@ -252,7 +237,7 @@ footer {
   header .container {
     gap: 1rem;
   }
-  /* Ajustes de fonte para telas menores */
+ 
   .texto h1 { font-size: 3rem; }
   .texto h2 { font-size: 1.5rem; }
 }
