@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-
   const navLinks = document.querySelectorAll('a[href^="#"]');
 
   navLinks.forEach(link => {
@@ -28,14 +27,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const linkAtivo = document.querySelector(`nav a[href="#${id}"]`);
         
         linksMenu.forEach(l => l.classList.remove('ativo'));
-         
+        
         if (linkAtivo) {
           linkAtivo.classList.add('ativo');
         }
       }
     });
   }, {
-  
     rootMargin: '-50% 0px -50% 0px' 
   });
 
@@ -50,14 +48,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function animateScroll() {
       if (!isPaused) {
-     
         if (carousel.scrollLeft >= carousel.scrollWidth / 2) {
           carousel.scrollLeft = 0;
         } else {
           carousel.scrollLeft += 1; 
         }
       }
-     
+      
       requestAnimationFrame(animateScroll);
     }
 
@@ -66,4 +63,40 @@ document.addEventListener('DOMContentLoaded', () => {
 
     requestAnimationFrame(animateScroll);
   }
+
+  const projetosGrid = document.querySelector('.projetos-grid');
+  const prevBtn = document.getElementById('prev-btn');
+  const nextBtn = document.getElementById('next-btn');
+
+  if (projetosGrid && prevBtn && nextBtn) {
+    
+    const updateArrowState = () => {
+      const scrollLeft = projetosGrid.scrollLeft;
+      const maxScrollLeft = projetosGrid.scrollWidth - projetosGrid.clientWidth;
+
+      prevBtn.disabled = scrollLeft <= 0;
+      nextBtn.disabled = scrollLeft >= maxScrollLeft - 1;
+    };
+
+    nextBtn.addEventListener('click', () => {
+      const firstCard = projetosGrid.querySelector('.projeto-card');
+      const cardWidth = firstCard.offsetWidth;
+      const gap = parseInt(window.getComputedStyle(projetosGrid).gap);
+      
+      projetosGrid.scrollBy({ left: cardWidth + gap, behavior: 'smooth' });
+    });
+
+    prevBtn.addEventListener('click', () => {
+      const firstCard = projetosGrid.querySelector('.projeto-card');
+      const cardWidth = firstCard.offsetWidth;
+      const gap = parseInt(window.getComputedStyle(projetosGrid).gap);
+      
+      projetosGrid.scrollBy({ left: -(cardWidth + gap), behavior: 'smooth' });
+    });
+
+    projetosGrid.addEventListener('scroll', updateArrowState);
+    
+    updateArrowState();
+  }
+  
 });

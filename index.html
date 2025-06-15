@@ -12,11 +12,11 @@
     <div class="container">
       <nav>
         <ul>
-          <li><a href="#inicio"      class="nav-link">Início</a></li>
-          <li><a href="#sobre"       class="nav-link">Sobre mim</a></li>
-          <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
-          <li><a href="#projetos"    class="nav-link">Projetos</a></li>
-          <li><a href="#contato"     class="nav-link">Contato</a></li>
+          <li><a href="#inicio"     class="nav-link">Início</a></li>
+          <li><a href="#sobre"      class="nav-link">Sobre mim</a></li>
+          <li><a href="#habilidades"class="nav-link">Habilidades</a></li>
+          <li><a href="#projetos"   class="nav-link">Projetos</a></li>
+          <li><a href="#contato"    class="nav-link">Contato</a></li>
         </ul>
       </nav>
     </div>
@@ -83,10 +83,38 @@
   <section class="section" id="projetos">
     <div class="container">
       <h2>Projetos</h2>
-      <p></p>
+      <div class="projetos-wrapper">
+        
+        <button id="prev-btn" class="arrow-btn" aria-label="Projeto anterior">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+          </svg>
+        </button>
+
+        <div class="projetos-grid">
+          <div class="projeto-card">
+            <img src="images/preview-portfolio.png" alt="Preview da página inicial do portfólio">
+            <h3>Portfólio Pessoal</h3>
+            <p>Meu site de portfólio pessoal, desenvolvido para apresentar minhas habilidades, projetos e informações de contato.</p>
+            <div class="projeto-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+            <div class="projeto-links"><a href="https://github.com/joaolpps/portfolio_pessoal/tree/main" target="_blank" class="btn">Ver Código</a><a href="#inicio" class="btn-outline">Ver Demo</a></div>
+          </div>
+          <div class="projeto-card projeto-card-placeholder">
+              <h3>Em breve...</h3>
+              <p>Novos projetos estão sendo desenvolvidos e serão adicionados aqui.</p>
+          </div>
+        </div>
+
+        <button id="next-btn" class="arrow-btn" aria-label="Próximo projeto">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+          </svg>
+        </button>
+
+      </div>
     </div>
   </section>
-
+  
   <section class="section" id="contato">
     <div class="container">
       <h2>Contato</h2>
@@ -96,15 +124,12 @@
         <a href="https://github.com/joaolpps" target="_blank" rel="noopener noreferrer" title="GitHub">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
         </a>
-        
         <a href="https://linkedin.com/in/joao-lopes-almeida" target="_blank" rel="noopener noreferrer" title="LinkedIn">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" alt="LinkedIn">
         </a>
-        
         <a href="https://instagram.com/joao.lpps" target="_blank" rel="noopener noreferrer" title="Instagram">
             <img src="https://api.iconify.design/mdi/instagram.svg" alt="Instagram">
         </a>
-  
         <a href="mailto:contato.joaolps@gmail.com" title="E-mail">
           <img src="https://api.iconify.design/mdi/email-outline.svg" alt="E-mail">
         </a>
