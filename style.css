@@ -138,7 +138,7 @@ nav a.ativo {
   align-items: center;
   justify-content: center;
   font-weight: 700;
-  will-change: transform;
+  will-change: transform ;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: default;
   padding: 1rem;
