@@ -14,6 +14,12 @@ document.addEventListener('DOMContentLoaded', () => {
           block: 'start'
         });
       }
+      const mainNav = document.getElementById('main-nav');
+      const menuToggle = document.querySelector('.menu-toggle');
+      if (mainNav.classList.contains('menu-aberto')) {
+        mainNav.classList.remove('menu-aberto');
+        menuToggle.classList.remove('active');
+      }
     });
   });
 
@@ -106,6 +112,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     projetosGrid.addEventListener('scroll', updateArrowState);
     updateArrowState();
+  }
+
+  const mainNav = document.getElementById('main-nav');
+  const menuToggle = document.querySelector('.menu-toggle');
+
+  if (menuToggle && mainNav) {
+    menuToggle.addEventListener('click', () => {
+      mainNav.classList.toggle('menu-aberto');
+      menuToggle.classList.toggle('active');
+    });
   }
 
 });
