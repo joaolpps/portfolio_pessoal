@@ -40,8 +40,7 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
     * `Iconify`: Ícones adicionais (ex: Instagram, E-mail).
 ## Como Visualizar
 
-Para ver uma demonstração ao vivo deste portfólio, acesse:[Visualizar Site]
-https://joaolpps.github.io/portfolio_pessoal/) 
+Para ver uma demonstração ao vivo deste portfólio, acesse:[Visualizar Site](https://joaolpps.github.io/portfolio_pessoal/)) 
 
 Para rodar o projeto localmente:
 
