@@ -38,10 +38,10 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
     * `Google Fonts (Inter)`: Tipografia personalizada.
     * `Devicons`: Ícones das tecnologias.
     * `Iconify`: Ícones adicionais (ex: Instagram, E-mail).
+
 ## Como Visualizar
 
-Para ver uma demonstração ao vivo deste portfólio, acesse:
-https://joaolpps.github.io/portfolio_pessoal/) 
+Para ver uma demonstração ao vivo deste portfólio, acesse: [Demo](https://joaolpps.github.io/portfolio_pessoal/)
 
 Para rodar o projeto localmente:
 
@@ -68,7 +68,7 @@ Sinta-se à vontade para entrar em contato comigo através das seguintes platafo
 
 ## Licença
 
-Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes. *(Você pode criar um arquivo LICENSE no seu repositório com o texto da licença MIT se ainda não tiver um).*
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
