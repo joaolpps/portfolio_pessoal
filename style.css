@@ -346,12 +346,17 @@ footer {
 
   .projetos-grid {
     flex-wrap: nowrap;
-    padding-left: 15px;
+    padding: 0 15px; 
   }
 
   .projeto-card {
-    width: calc(100% - 30px);
-    margin-left: 15px;
+    flex-shrink: 0; 
+    width: 280px; 
+    margin-right: 15px; 
+  }
+
+  .projeto-card:last-child {
+      margin-right: 0; 
   }
 }
 
@@ -386,12 +391,12 @@ footer {
   }
 
   .projetos-grid {
-    padding-left: 10px;
-    gap: 15px;
+    padding: 0 10px; 
+    gap: 10px; 
   }
 
   .projeto-card {
-    width: calc(100% - 20px);
-    margin-left: 10px;
+    width: 250px; 
+    margin-right: 10px; 
   }
 }
