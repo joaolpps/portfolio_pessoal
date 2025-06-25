@@ -41,7 +41,7 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 ## Como Visualizar
 
 Para ver uma demonstração ao vivo deste portfólio, acesse:
-[**Seu Link de Demonstração Ao Vivo Aqui**](https://joaolpps.github.io/portfolio_pessoal/) *(Lembre-se de substituir este placeholder pelo seu link real do GitHub Pages ou outro serviço de hospedagem)*
+https://joaolpps.github.io/portfolio_pessoal/) 
 
 Para rodar o projeto localmente:
 
