@@ -44,8 +44,12 @@ document.addEventListener('DOMContentLoaded', () => {
   if (carousel) { 
     let isPaused = false;
 
-    carousel.innerHTML += carousel.innerHTML;
-
+    const originalItems = carousel.querySelectorAll('.carousel-item');
+    originalItems.forEach(item => {
+      const clone = item.cloneNode(true);
+      clone.setAttribute('aria-hidden', 'true'); // impede leitor de tela de ler
+      carousel.appendChild(clone);
+    });
     function animateScroll() {
       if (!isPaused) {
         if (carousel.scrollLeft >= carousel.scrollWidth / 2) {
