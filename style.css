@@ -122,16 +122,16 @@ nav a.ativo {
 .carousel {
   display: flex;
   overflow: hidden; 
-  /* CORREÇÃO AQUI: Adicionando padding vertical */
-  padding-top: 15px; /* Adicione espaço na parte superior */
-  padding-bottom: 15px; /* Adicione espaço na parte inferior */
-  /* FIM CORREÇÃO */
+ 
+  padding-top: 15px; 
+  padding-bottom: 15px; 
+  
   gap: 2rem;
   max-width: 800px;
   margin: 0 auto;
   user-select: none;
   position: relative;
-  /* A máscara não precisa de ajustes verticais se o padding for suficiente */
+  
   -webkit-mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
   mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
 }
@@ -149,7 +149,7 @@ nav a.ativo {
   padding: 1rem;
   border-radius: 12px;
   background: #1a1a1a;
-  height: 150px; /* Altura original do item */
+  height: 150px; 
 }
 
 .carousel-item img, .carousel-item svg {
@@ -167,7 +167,7 @@ nav a.ativo {
 }
 
 .carousel-item:hover {
-  transform: scale(1.05); /* Escala em 5% */
+  transform: scale(1.05); 
   box-shadow: 0 0 12px #40E0D0;
 }
 .carousel-item:hover span {
