@@ -39,22 +39,6 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
     * `Devicons`: Ícones das tecnologias.
     * `Iconify`: Ícones adicionais (ex: Instagram, E-mail).
 
-## Como Visualizar
-
-Para ver uma demonstração ao vivo deste portfólio, acesse: [Demo](https://joaolpps.github.io/portfolio_pessoal/)
-
-Para rodar o projeto localmente:
-
-1.  **Clone o repositório:**
-    ```bash
-    git clone [https://github.com/joaolpps/portfolio_pessoal.git](https://github.com/joaolpps/portfolio_pessoal.git)
-    ```
-2.  **Navegue até a pasta do projeto:**
-    ```bash
-    cd portfolio_pessoal
-    ```
-3.  **Abra o arquivo `index.html` em seu navegador web preferido.**
-
 ## Contato
 
 Sinta-se à vontade para entrar em contato comigo através das seguintes plataformas:
