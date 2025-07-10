@@ -43,9 +43,9 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 Sinta-se à vontade para entrar em contato comigo através das seguintes plataformas:
 
-* **GitHub:** [joao Lopes](https://github.com/joaolpps)
+* **GitHub:** [João Lopes](https://github.com/joaolpps)
 * **LinkedIn:** [João Lopes](https://linkedin.com/in/joao-lopes-almeida)
-* **Instagram:** [joao Lopes](https://instagram.com/joao.lpps)
+* **Instagram:** [João Lopes](https://instagram.com/joao.lpps)
 * **E-mail:** [contato.joaolps@gmail.com](mailto:contato.joaolps@gmail.com)
 
 ---
